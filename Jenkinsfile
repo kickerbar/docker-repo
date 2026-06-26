@@ -2,7 +2,7 @@ pipeline {
     agent any
     
     environment {
-        APP_SERVER_IP = "101.79.20.211"
+        APP_SERVER_IP = "192.168.30.7"
         IMAGE_NAME = "my-web-app:latest"
     }
 
